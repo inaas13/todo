@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ToDo, List, Items, Todo list, todo item">
+    <meta name="description" content="List of To Do's">
+    <meta name="author" content="Inaas Isse, Riley Nilsson">
+    
+    <title>ToDo List MVC</title>
+</head>
+
+<body>
+    <header>
+        <h1>todos</h1>
+    </header>
+    <main>
+        <form id="mainForm">
+            <input id="checkall" type="checkbox">
+            <input id="todoInput" type="text" placeholder="What needs to be done?" size="50" autofocus="">
+            <button type="submit" id="buttonSubmit"></button>
+        </form>
+        <ul id="todoList">
+        </ul>
+        <footer id="todofooter">
+            <ul id="filter">
+                <li id="count">
+                    x items left
+                </li>
+                <li>
+                    <button type="button" id="all">All</button>
+                </li>
+                <li>
+                    <button type="button" id="active">Active</button>
+                </li>
+                <li>
+                    <button type="button" id="completed">Completed</button>
+                </li>
+                <li>
+                    <button type="button" id="clearcompleted">Clear Completed</button>
+                </li>
+            </ul>
+        </footer>
+    </main>
+
+    <footer id="info">
+        <p>Developed by Inaas Isse And Riley Nilsson</p>
+    </footer>
+</body>
+<script src="scripts/indexScript.js"></script>
+</html>
